@@ -1,0 +1,72 @@
+body {
+  margin: 32px;
+  padding: 0;
+}
+
+button {
+  width: 100px;
+  height: 35px;
+  margin-right: 12px;
+  font-size: 14pt;
+}
+
+div {
+  padding-bottom: 32px;
+}
+#convert {
+  font-weight: 900;
+}
+
+.piggy {
+  padding: 12px;
+}
+
+.piggy .h {
+  color: navy;
+  font-size: 38pt;
+  text-align: center;
+}
+
+.piggy .p {
+  font-weight: 900;
+  font-family: monospace;
+  color: gray;
+  font-size: 12pt;
+  text-align: center;
+}
+
+.wedge {
+  opacity: 0;
+}
+
+.punct .p {
+  opacity: 0;
+}
+
+.breakhere {
+  break-before: page;
+}
+
+#inputs {
+  padding: 8px;
+  background-color: lightblue;
+  color: navy;
+  font-weight: 100;
+  width: 90%;
+  height: 180px;
+  font-size: 30pt;
+}
+
+#outputs {
+  padding: 16px;
+}
+
+@media print {
+  .piggy .p {
+    color: black;
+  }
+
+  .piggy .h {
+    color: black;
+  }
+}
