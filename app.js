@@ -5,8 +5,8 @@
 // lic    : MIT
 //
 
-import vocab1 from './two.json' with {type: 'json'}
-import vocab2 from './one.json' with {type: 'json'}
+import vocab1 from './obj/two.json' with {type: 'json'}
+import vocab2 from './obj/one.json' with {type: 'json'}
 
 import { PiggyObject } from './obj/PiggyObject.js';
 
